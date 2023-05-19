@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jatin Kumar</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Jatin Kumar" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Jatin Kumar">Jatin Kumar</h1>
+
+          <p class="title">Software Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:iam.jatinkumars@gmail" class="contact-link">iam.jatinkumars@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+919457518077" class="contact-link">+91-9457518077</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Uttar Pradesh, India</address>
+            </div>
+
+          </li>
+		  
+		  <a href="https://drive.google.com/file/d/1IShCFq-7R6vJ7rxV3gv9HL3Sv1K408eI/view?usp=share_link" class="form-btn">
+              <ion-icon name="document-attach-outline"></ion-icon>
+              <h5 class="h5">Download Resume</h5>
+          </a>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/iam-jatin" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/iam-jatin" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://instagram.com/iam.jatin.kumar" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+		  
+		  <li class="social-item">
+            <a href="https://drive.google.com/file/d/1IShCFq-7R6vJ7rxV3gv9HL3Sv1K408eI/view?usp=share_link" class="social-link">
+              <ion-icon name="document-attach-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Motivation</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm Jatin Kumar, a passionate and enthusiastic Computer Science Engineering Graduate from Anand Engineering College (AKTU), Agra, India.
+          </p>
+
+          <p>
+            With a strong drive for continuous learning, I actively explore and engage with various technologies and domains. My primary objective is to leverage emerging technologies to effectively address real-life challenges. 
+          </p>
+		  
+		  <p>
+           Currently, I have a particular interest in the field of Full Stack Development.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Unleashing the power of code to craft immersive digital experiences on the web.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Coding</h4>
+
+                <p class="service-item-text">
+                  Code is the poetry of logic, where imagination and creativity intersect with problem-solving and precision.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Watching Anime</h4>
+
+                <p class="service-item-text">
+                  I won't run away anymore... I won't go back on my word... That is my ninja way!
+                </p>
+              </div>
+
+            </li>
+
+           
+
+          </ul>
+
+        </section>
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+			  <h4 class="h4">B.TECH in Computer Science and Engineering</h4>
+              <h5 class="h5 timeline-item-title">Anand Engineering College (AKTU), Agra</h5>
+
+              <span>2018-2022</span>
+
+              <p class="timeline-text">
+                Courses: DSA, OOPs, Web Technology, DBMS
+              </p>
+			  
+			  <p class="timeline-text">
+				CGPA: 7.41
+			  </p>
+
+            </li>
+
+            <li class="timeline-item">
+			  <h4 class="h4">Senior Secondary Education - XII (CBSE)</h4>
+              <h5 class="h5 timeline-item-title">Colonel's Brightland Public School, Agra</h5>
+
+              <span>2017-2018</span>
+
+              <p class="timeline-text">
+                Courses: Physics, Chemistry, Mathematics, and Computer Science
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4">Software Engineer</h4>
+              <h5 class="h5 timeline-item-title">Wipro Technologies</h5>
+
+              <span>March 2022-Present</span>
+
+              <p class="timeline-text">
+                 • Implemented React and TypeScript dashboard, enhancing driver session understanding by 10x. Developed real-time data sync, interactive UIs, and seamless integrations. Collaborated with skilled team for innovative solutions and integrated APIs for robust functionality.
+              </p>
+			  
+			  <p class="timeline-text">
+			   • Tech stack: Java, SpringBoot, ReactJS, MongoDB, MySQL.
+			  </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4">Frontend Developer (Intern)</h4>
+              <h5 class="h5 timeline-item-title">Altruism Labs</h5>
+
+              <span>March 2021- March 2022</span>
+
+              <p class="timeline-text">
+               • Built engaging web apps with React, Angular, and TypeScript. Leveraged frontend frameworks for dynamic interfaces. Collaborated in cross-functional teams using agile methodologies. Applied UI/UX design principles for intuitive navigation. 
+              </p>
+			  
+			  <p class="timeline-text">
+			   • Tech stack: HTML, CSS, JavaScript, TypeScript, Bootstrap, TailWind CSS, ReactJS, AngularJS
+			  </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+		
+		<section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">My Skills</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h5 class="h5 timeline-item-title">Languages: Java, C/C++, C#, Python, SQL</h5>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h5 class="h5 timeline-item-title">Web Development: SpringBoot, ASP.NET MVC, ReactJS, AngularJS, JavaScript, TypeScript, HTML, CSS, Bootstrap, TailWind CSS</h5>
+
+            </li>
+			
+			<li class="timeline-item">
+
+              <h5 class="h5 timeline-item-title">Technology: Git, Azure, Apache, MongoDB, MySQL</h5>
+
+            </li>
+
+          </ol>
+
+        </section>
+		
+		<section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Certifications</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h5 class="h5 timeline-item-title">.NET Full Stack, FED ReactJS, Python, Microsoft Azure (AZ-900)</h5>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/1.png" alt="dashboard" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Dashboard+Chart.js</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Dashboard+Plotly Chart</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/3.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">TailWind CSS+ReactJS</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">TailWind CSS+ReactJS+Plotly Chart</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Bootstrap+AngularJS</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Bootstrap+AngularJS</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Bootstrap+Plotly Chart</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/8.png" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Bootstrap+Google Chart</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="motivation">
+
+        <header>
+          <h2 class="h2 article-title">Motivation</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/shri-hanuman-ji.jpg" alt="" loading="lazy">
+                </figure>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
